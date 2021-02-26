@@ -50,6 +50,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
 import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import { ErrorComponent } from './modules/error/error.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
     ReportsComponent,
     CitiesComponent,
     UsersComponent,
-    MenuComponent
+    MenuComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
